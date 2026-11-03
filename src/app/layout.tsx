@@ -8,7 +8,7 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
   title: "Andén — portafolio de oficio",
-  description: "Dieciséis proyectos con la arquitectura a la vista: dominio, casos de uso y un adaptador que se puede correr.",
+  description: "Diecisiete proyectos con la arquitectura a la vista: dominio, casos de uso, y un modelo con lista blanca, veto y traza.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

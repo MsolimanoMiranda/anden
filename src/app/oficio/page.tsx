@@ -15,7 +15,7 @@ export default function OficioPage() {
         Un proyecto por stack, no cincuenta carpetas iguales.
       </Typography>
       <Typography sx={{ mt: 3, maxWidth: 680, fontSize: 18, lineHeight: 1.6 }}>
-        El pedido era una vitrina de cincuenta repositorios. Una vitrina llena de clones se nota, y un perfil se lee mejor con piezas que se pueden clonar y correr. Aquí hay dieciséis, cubriendo cada stack de la lista. Donde el sistema no tiene iPhone, Android SDK o una cuenta de AWS, el código del borde está escrito y la prueba corre en la parte que sí existe.
+        El pedido era una vitrina de cincuenta repositorios. Una vitrina llena de clones se nota, y un perfil se lee mejor con piezas que se pueden clonar y correr. Aquí hay diecisiete. Dieciséis cubren cada stack de la lista. La última maneja un modelo: herramientas permitidas, presupuesto de pasos, veto y un respaldo local. Donde el sistema no tiene iPhone, Android SDK o una cuenta de AWS, el código del borde está escrito y la prueba corre en la parte que sí existe.
       </Typography>
       <Typography sx={{ mt: 2, maxWidth: 680, lineHeight: 1.6 }}>
         Firebase, NATS, Postgres, Mongo y el emisor OAuth quedan como puertos. El adaptador local permite la prueba. La variable de entorno enciende el adaptador real.

@@ -22,7 +22,12 @@ export default function Home() {
             Arquitectura que se puede abrir.
           </Typography>
           <Typography sx={{ mt: 3, maxWidth: 460, fontSize: 18, lineHeight: 1.5 }}>
-            Dieciséis piezas, una por stack. Hay dominio con reglas, un puerto y un adaptador. Si no corre en esta máquina, el texto lo dice.
+            Diecisiete piezas. Dieciséis cubren un stack. La última pone al modelo bajo contrato: lista de herramientas, presupuesto de pasos, veto y traza.
+          </Typography>
+          <Typography sx={{ mt: 2, maxWidth: 460 }}>
+            <NextLink href="/proyectos/oficio-ia" style={{ color: "inherit" }}>
+              Oficio de la IA
+            </NextLink>
           </Typography>
           <Typography sx={{ mt: 3, color: "text.secondary" }}>
             Hecho para fijar en GitHub. La carpeta de cada proyecto se puede partir en su propio repositorio.

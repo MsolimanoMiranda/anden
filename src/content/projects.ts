@@ -285,6 +285,23 @@ export const proyectos: Proyecto[] = [
     ruta: "projects/aws-cicd",
     modo: "listo para conectar",
   },
+  {
+    slug: "oficio-ia",
+    indice: "17",
+    nombre: "Oficio de la IA",
+    stack: "Python · FastAPI · lista blanca · política · traza",
+    resumen: "El modelo propone. La política puede vetar. Si no responde, entra el respaldo.",
+    problema: "Dejar que un modelo ayude en el mostrador sin que invente stock, llame herramientas ajenas o se quede en un bucle.",
+    arquitectura: "El orquestador recupera dos notas, ofrece solo consultar_stock y corta a los cuatro pasos. La política baja un PROCEDER sin dato o con cantidad cero. El respaldo decide si el modelo cae. ModeloHttp habla /v1/chat/completions cuando ANDEN_MODELO_URL está puesta.",
+    capas: [
+      { nombre: "Contrato", detalle: "Lista blanca, presupuesto de cuatro pasos, decisión PROCEDER, REVISAR o RECHAZAR." },
+      { nombre: "Política", detalle: "Veta una entrega sin consultar_stock o con cantidad cero. La traza guarda el veto." },
+      { nombre: "Adaptadores", detalle: "ModeloLocal en las pruebas. ModeloHttp si hay URL. POST /consultas devuelve la traza." },
+    ],
+    correr: "cd projects/ia-oficio && pip install -r requirements.txt && pytest",
+    ruta: "projects/ia-oficio",
+    modo: "probado aquí",
+  },
 ];
 
 export function proyectoPorSlug(slug: string) {
