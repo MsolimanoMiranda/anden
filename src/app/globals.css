@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #efe6d6;
+}
+
+::selection {
+  background: #f0b9a4;
+}
